@@ -1,0 +1,229 @@
+Modelo:
+	-Numero de reglas
+	-Fila no leida(descripcion de regla)
+	-Numero de tema
+	-Numero de patrones
+	-(Patrones)
+	-Numero de plantillas
+	-(Plantillas)
+	-Siguiente regla
+-----
+32
+---IR_SUCCESS
+-1
+0
+2
+Te has movido *
+Has logrado desplazarte *
+---IR_FAIL
+-1
+0
+2
+No puedes ir al *
+No es posible desplazarse hacia *
+---COGER_SUCCESS
+-1
+0
+2
+Has cogido *
+Ahora tienes * en el inventario
+---COGER_FAIL
+-1
+0
+1
+No se puede coger *
+---DEJAR_SUCCESS
+-1
+0
+2
+Has dejado *
+Has tenido exito en la odisea de la deposicion espacial de *
+---DEJAR_FAIL
+-1
+0
+2
+No puedes dejar *
+No tienes * que dejar
+---EXAMINAR_SUCCESS
+-1
+0
+2
+Examinas con detalle *
+* atrae tu atencion...
+---EXAMINAR_FAIL
+-1
+0
+1
+No es posible examinar *
+---ENCENDER_SUCCESS
+-1
+0
+2
+Has encendido *
+Has logrado encender *
+---ENCENDER_FAIL
+-1
+0
+1
+No se puede encender *
+---APAGAR_SUCCESS
+-1
+0
+2
+Has apagado *
+Ahora * no esta encendido
+---APAGAR_FAIL
+-1
+0
+2
+No has logrado apagar *
+No se puede apagar *
+--ABRIR_SUCCESS
+-1
+0
+2
+Has abierto *
+Ahora * esta abierto
+--ABRIR_FAIL
+-1
+0
+2
+No has logrado abrir *
+No se puede abrir *
+---DIALOGAR_SUCCESS
+-1
+0
+2
+Te acercas a *, tratando de conseguir ayuda
+* te mira con interes, tal vez si pedimos ayuda...
+---DIALOGAR_FAIL
+-1
+0
+2
+No puedes dialogar con *!
+* no parece tener mucha conversacion
+---ATACAR_NO
+-1
+0
+1
+La violencia no siempre es la solucion
+---ATACAR_CRIT
+-1
+0
+1
+Critico!! Le queda * de vida
+---ATACAR_BASIC
+-1
+0
+1
+Eso ha tenido que doler... Le queda * de vida 
+---ATACAR_FAIL
+-1
+0
+1
+El ataque no le ha hecho efecto... Te quedan * de vida! 
+---ATACAR_VICTORY
+-1
+0
+1
+Le has derrotado!!! Ahora el barco y su tripulacion son tuyos!!
+---ATACAR_DEATH
+-1
+0
+1
+Te han derrotado, el loro se descojona en tu cara...
+---TONTA
+-1
+0
+5
+No me vaciles...
+Si me cabreas te crujo!
+Concentrate en el juego!
+Eso no tiene sentido!
+A veces dices unas cosas que no tienen sentido...
+---Regla 1 de CABEZA VUDU(tema 1)
+1
+1
+AYUDA
+1
+Cabeza vudu: Mmmm... mereces mi ayuda? Responde a mis 5 acertijos y te dire la localizacion de un objeto muy valioso! Cual es la planta que anda?
+---Regla 2 de CABEZA VUDU(tema 1)
+1
+1
+PIE
+1
+Cabeza vudu: Esa era facil... Quien es el hijo de tu padre que no es tu hermano?
+---Regla 3 de CABEZA VUDU(tema 1)
+1
+1
+YO
+1
+Cabeza vudu: Te crees muy listo no? No es leon y tiene garra, no es pato y tiene pata
+---Regla 4 de CABEZA VUDU(tema 1)
+1
+1
+GARRAPATA
+1
+Cabeza vudu: Pse... estaba cantado... Es algo y nada a la vez... a que no sabes que es?
+---Regla 5 de CABEZA VUDU(tema 1)
+1
+1
+PEZ
+1
+Cabeza vudu: Pez te voy a dar yo a ti! Cuando me refieren algo que desconozco o no veo, y al venir de Dios lo creo, ¿de qué gran virtud me valgo?
+---Regla 6 de CABEZA VUDU(tema 1)
+1
+1
+FE
+1
+Cabeza vudu: Mucha necesitaremos para salir de aqui con vida! Pero no sera lo unico! Busca un MAPA nada mas salir de aqui al oeste, a ver si llegas hasta alli solito!
+---Regla 1 de CAPITAN(tema 2)
+2
+1
+
+28
+Capitan: Te voy a partir la puta cara
+Capitan: Voy a hacerme un abrigo con tus restos
+Capitan: Yo no soy malo, la sociedad me hizo asi...
+Capitan: Mato, luego existo
+Capitan: Me has interrumpido en mis momentos de soledad!!!
+Capitan: Rayos y centellas!!
+Capitan: YYYAAAAAARRRRRRR
+Capitan: Yohohoho, y una botella de ron!
+Capitan: Marinero de agua dulce!
+Capitan: Vini, vidi y tu cabeza en una estaca
+Capitan: Juanma baila con tutu en la ducha O.o!
+Capitan: Mis piernas depiladas patearan ese trasero tan mono que tienes
+Capitan: Esto te va a gustarrrr!
+Capitan: Por el amor de esa mujeeeeeeeeeeeeer!
+Capitan: Parley... paralalolo...
+Capitan: Peleas como una vaca!!
+Capitan: Trololololo!
+Capitan: Podemos hablarlo...
+Capitan: Mis hombres volveran y juntos te haremos cosas feas...
+Capitan: Hay momentos en la vida de un pirata en que debe hacer lo que debe hacer... correr!!!
+Capitan: Spiderman! Help!
+Capitan: Hablale a la mano
+Capitan: Golpe de remo!
+Capitan: El vino que tiene Asuncion ni es blanco ni es tinto ni tiene color!!
+Capitan: Soy loca con mi tigreeeee, loca loca locaaa!!
+Capitan: Como te metas con mi loro me enfado >=(!
+Capitan: Tu eres cola, yo pegamento!
+Capitan: Si sacas buena nota en PPROG, te dejo que te unas a mi tripulacion!!!
+---Regla 1 de LORO(tema 3)
+3
+1
+GALLETA
+6
+Loro: TE MATOOOOOOOOOOOOO
+Loro: DAME MI GALLETITAAAAA
+Loro: Dame una galleta o te rajo!!!!
+La mirada homicida del lorito te dice que esta cada vez mas cerca de tirarse a tu cuello
+Empiezan a aparecer espuma en los alrededores del pico del pajarraco...
+Resulto no ser tan simpatico el cabron
+---Regla 2 de LORO(tema 3)
+3
+1
+LORISKAS
+1
+Loro: Mucho mejor! La LLAVE DORADA que te permitira abrir CAMAROTE DEL CAPITAN se encuentra en CAMAROTE DE SEGUNDO DE ABORDO!

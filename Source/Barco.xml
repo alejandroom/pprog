@@ -1,0 +1,733 @@
+<juego>
+    <espacios>
+        <espacio id="100">
+            <descripcion>Estas en unos apestosos calabozos de un barco pirata y la TRAMPILLA que conecta con la cubierta esta cerrada. Genial.</descripcion>
+            <edescripcion>Al lado de tus "aposentos" tienes un monton de PAJA sobre el que duermes y unas CADENAS. </edescripcion>
+            <arriba>200</arriba>
+            <luz valor="VERDADERO"/>
+            <objetos>
+                <objeto id="300"/>
+                <objeto id="301"/>
+                <objeto id="302"/>
+                <objeto id="303"/>
+            </objetos>
+        </espacio>
+        <espacio id="101">
+            <descripcion>Esta es la parte central de la cubierta. Parece que esta vacia...los piratas habran salido con los botes a la isla.</descripcion>
+            <edescripcion>Es de noche aqui afuera, pero aun asi puedes distinguir algunos UTENSILIOS DE LIMPIEZA tirados en el suelo, ah! y un PALO DE FREGONA.</edescripcion>
+            <arriba>202</arriba>
+            <oeste>201</oeste>
+            <este>203</este>
+            <abajo>200</abajo>
+            <luz valor="VERDADERO"/>
+            <objetos>
+                <objeto id="304"/>
+                <objeto id="306"/>
+            </objetos>
+        </espacio>
+        <espacio id="102">
+            <descripcion>La proa del barco. En contraste con el resto del barco, el oscuro mar se ve precioso.</descripcion>
+            <edescripcion>La madera de la barandilla no esta en buen estado, mejor no asomarse.</edescripcion>
+            <este>201</este>
+            <luz valor="VERDADERO"/>
+            <objetos>
+				<objeto id="313"/>
+            </objetos>
+        </espacio>
+        <espacio id="103">
+            <descripcion>La parte este de la cubierta. Unas escaleras bajan hacia un lugar muy oscuro... mejor no aventurarse sin algo que ilumina. Al fondo unas escaleras suben a la cubierta del timon.</descripcion>
+            <edescripcion>Ante las puertas de los camarotes hay unas antorchas. Lastima que esten fijadas a la pared. Pero...pero eh! Hay una VELA encima de aquel barril! Dios bendiga tu suerte.</edescripcion>
+            <oeste>203</oeste>
+            <arriba>204</arriba>
+            <abajo>205</abajo>
+            <luz valor="VERDADERO"/>
+            <objetos>
+                <objeto id="310"/>
+            </objetos>
+        </espacio>
+        <espacio id="104">
+            <descripcion>Esta es la cofa del barco. Desde aqui se ve todo en kilometros a la redonda gracias a ese CATALEJO, incluso los piratas enterrando el tesoro.</descripcion>
+            <edescripcion>Vaya, estar al lado de una BANDERA PIRATA y de noche no inspira mucha confianza en tus posibilidaddes, eso si, es una noche ideal para contemplar las estrellas.
+            
+                          ____....
+                       a#####~:::::::,                   |
+                   a######P";:::::::::::,        .     --*--
+                a########:::::::::::::::::,              |        .
+               ########P::::::::::::*:::::::    .                         .
+              ########P::::::::::::::::::.:::.
+             ########P:::::::::::::::::::::::;.               *
+            .########:::::*:::::::::::::::.::;.
+            ########### ::::::::::::::::::.:::::
+            ########@###,::::::::::::::::::::::;
+            ############:::::::::::::::*:::.:::;    \ /            .        .
+             ########:::::::::::::::::::::::::;     / \     .
+              #########::::::::::::::::::::::;
+               ########;::::::::::::::::::::;      .               .
+                ########a::::::::::::::::::'            .         .      *         .
+                  ########.:::::::::*;:::'             .                        . .
+                   `d######a.::::::::::'                                    .  .
+                      `~9#####.::::''           .               .            .           
+            </edescripcion>
+            <abajo>202</abajo>
+            <luz valor="VERDADERO"/>
+            <objetos>
+                <objeto id="309"/>
+                <objeto id="319"/>
+            </objetos>
+        </espacio>
+        <espacio id="105">
+            <descripcion>La cubierta del timon. Parece que el SEGUNDO DE ABORDO ha bebido mas GROG de la cuenta.</descripcion>
+            <edescripcion>Un hombre borracho, una botella de GROG, un timon bien amarrado, y un prisionero intentando huir: esta escena resume bien toda la escencia pirata!</edescripcion>
+            <abajo>204</abajo>
+            <luz valor="VERDADERO"/>
+            <objetos>
+                <objeto id="314"/>
+                <objeto id="308"/>
+                <objeto id="318"/>					
+            </objetos>
+        </espacio>
+        <espacio id="106">
+            <descripcion>Esta todo bastante oscuro! Pero aun asi, la escasa luz que hay te permite ver que por delante te espera un pasillo con camarotes a los lados</descripcion>
+            <edescripcion>El primer pasillo de los camarotes. Todo apesta a una mezcla de viejo, sucio y sudor pirtata, YARRR!</edescripcion>
+            <arriba>205</arriba>        
+            <norte>208</norte>
+            <oeste>206</oeste>
+            <este>207</este>
+            <luz valor="FALSO"/>
+            <objetos>
+                <objeto id="307"/>
+            </objetos>
+        </espacio>
+        <espacio id="107">
+            <descripcion>Un camarote.</descripcion>
+            <edescripcion>Aqui no hay nada especial que llame la atencion.</edescripcion>
+            <este>206</este>
+            <luz valor="FALSO"/>
+            <objetos>
+            </objetos>
+        </espacio>
+        <espacio id="108">
+            <descripcion>En esta habitacion hay un LORO bastante simpatico!</descripcion>
+            <edescripcion>Hay migas tiradas por el suelo...</edescripcion>
+            <oeste>207</oeste>
+            <luz valor="FALSO"/>
+            <objetos>
+                <objeto id="321"/>
+            </objetos>
+        </espacio>
+        <espacio id="109">
+            <descripcion>La siguiente camara del pasillo. Al oeste esta el CAMAROTE DE SEGUNDO DE ABORDO y hacia el norte el CAMAROTE DEL CAPITAN</descripcion>
+            <edescripcion>Esta sala no parece muy interesante. Pero que mejor que contradecir a los creadores del juego con un CUCHILLO PIRATA en el suelo!</edescripcion>
+            <sur>208</sur>
+            <oeste>209</oeste>
+            <este>210</este>
+            <norte>211</norte>
+            <luz valor="FALSO"/>
+            <objetos>
+                <objeto id="317"/>    
+            </objetos>
+        </espacio>
+        <espacio id="110">
+            <descripcion>Este camarote es un poco mas grande que los otros. Ademas, esta mejor cuidado.</descripcion>
+            <edescripcion>Al lado de la cama, hay un bonito ESCRITORIO de madera con varios cajones.</edescripcion>
+            <este>209</este>
+            <luz valor="FALSO"/>
+            <objetos>
+                <objeto id="316"/>
+                <objeto id="315"/>
+                <objeto id="305"/>
+            </objetos>
+        </espacio>
+        <espacio id="111">
+            <descripcion>Un camarote normal y corriente, que original!</descripcion>
+            <edescripcion>Bueno, no nos precipitemos. Hay un pirata durmiendo en la habitacion, junto a una BOLSA DE GALLETAS.</edescripcion>
+            <oeste>210</oeste>
+            <luz valor="FALSO"/>
+            <objetos>
+                <objeto id="320"/>
+            </objetos>
+        </espacio>
+        <espacio id="112">
+            <descripcion>Los aposentos del capitan. Esto si que es una habitacion.</descripcion>
+            <edescripcion>Un vistazo rapido te basta para ver una ESPADA reluciente junto a la pared, pero concentrate en el capitan o te matara!</edescripcion>
+            <sur>211</sur>
+            <luz valor="VERDADERO"/>
+            <objetos>
+                <objeto id="311"/>
+                <objeto id="312"/>
+            </objetos>
+        </espacio>
+    </espacios>
+    <uniones>
+        <union id="200">
+            <nombre>TRAMPILLA</nombre>
+            <conexion_1>100</conexion_1>
+            <conexion_2>101</conexion_2>
+            <abrible valor="VERDADERO" inicial="FALSO"/>
+            <key>301</key>
+        </union>
+        <union id="201">
+            <nombre>PROA</nombre>
+            <conexion_1>101</conexion_1>
+            <conexion_2>102</conexion_2>
+            <abrible valor="VERDADERO" inicial="VERDADERO"/>
+        </union>
+        <union id="202">
+            <nombre>COFA</nombre>
+            <conexion_1>101</conexion_1>
+            <conexion_2>104</conexion_2>
+            <abrible valor="VERDADERO" inicial="VERDADERO"/>
+        </union>
+        <union id="203">
+            <nombre>ESTE DE LA CUBIERTA</nombre>
+            <conexion_1>101</conexion_1>
+            <conexion_2>103</conexion_2>
+            <abrible valor="VERDADERO" inicial="VERDADERO"/>
+        </union>
+        <union id="204">
+            <nombre>CUBIERTA DE TIMON</nombre>
+            <conexion_1>103</conexion_1>
+            <conexion_2>105</conexion_2>
+            <abrible valor="VERDADERO" inicial="VERDADERO"/>
+        </union>
+        <union id="205">
+            <nombre>PASILLO 1</nombre>
+            <conexion_1>103</conexion_1>
+            <conexion_2>106</conexion_2>
+            <abrible valor="VERDADERO" inicial="VERDADERO"/>
+        </union>
+        <union id="206">
+            <nombre>CAMAROTE MAPA</nombre>
+            <conexion_1>106</conexion_1>
+            <conexion_2>107</conexion_2>
+            <abrible valor="VERDADERO" inicial="VERDADERO"/>
+        </union>
+        <union id="207">
+            <nombre>CAMAROTE LORO</nombre>
+            <conexion_1>106</conexion_1>
+            <conexion_2>108</conexion_2>
+            <abrible valor="VERDADERO" inicial="VERDADERO"/>
+        </union>
+        <union id="208">
+            <nombre>PASILLO 2</nombre>
+            <conexion_1>106</conexion_1>
+            <conexion_2>109</conexion_2>
+            <abrible valor="VERDADERO" inicial="VERDADERO"/>
+        </union>
+        <union id="209">
+            <nombre>CAMAROTE DE SEGUNDO DE ABORDO</nombre>
+            <conexion_1>109</conexion_1>
+            <conexion_2>110</conexion_2>
+            <abrible valor="VERDADERO" inicial="FALSO"/>
+	    <key>314</key>
+        </union>
+        <union id="210">
+            <nombre>CAMAROTE GALLETAS</nombre>
+            <conexion_1>109</conexion_1>
+            <conexion_2>111</conexion_2>
+            <abrible valor="VERDADERO" inicial="VERDADERO"/>
+        </union>
+        <union id="211">
+            <nombre>CAMAROTE DEL CAPITAN</nombre>
+            <conexion_1>109</conexion_1>
+            <conexion_2>112</conexion_2>
+            <abrible valor="VERDADERO" inicial="FALSO"/>
+	    <key>305</key>
+        </union>
+    </uniones>
+    <objetos>
+        <objeto id="300">
+            <nombre>PAJA</nombre>
+            <pdescripcion>Un monton de paja sucia.</pdescripcion>
+            <edescripcion>Eh! Debajo de toda esa porqueria hay una BARRA!</edescripcion>
+            <movil valor="FALSO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="301">
+            <nombre>BARRA</nombre>
+            <pdescripcion>Una barra metalica de acero, de lo mas comun en un barco pirata.</pdescripcion>
+            <mdescripcion>La barra metalica ahora esta en tu posesion para hacer trastadas varias, muajajaja!</mdescripcion>
+            <edescripcion>Uno de los extremos de la barra acaba en forma plana... tal vez se pueda usar para forzar algo...
+            
+            (%%%%%%%%%%%%%%)       
+            </edescripcion>
+            <movil valor="VERDADERO"/>
+            <oculto valor="VERDADERO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+            <ataque valor="100"/>
+            <defensa valor="0"/>
+        </objeto>    
+        <objeto id="302">
+            <nombre>CADENAS</nombre>
+            <pdescripcion>Hay unas cadenas oxidas en la pared, alguien debió pasar mucho tiempo encadenado</pdescripcion>
+            <mdescripcion>No puedes coger estas cadenas</mdescripcion>
+            <edescripcion>Seran de poca ayuda, pero en medio hay una CABEZA VUDU que podria ser de utilidad
+                                           _
+                 .::::::::::.                         .::::::::::.
+               .::::''''''::::.                      .::::''''''::::.
+             .:::'          `::::....          ....::::'          `:::.
+            .::'             `:::::::|        |:::::::'             `::.
+           .::|               |::::::|_ ___ __|::::::|               |::.
+           `--'               |::::::|_()__()_|::::::|               `--'
+            :::               |::-o::|        |::o-::|               :::
+            `::.             .|::::::|        |::::::|.             .::'
+             `:::.          .::\-----'        `-----/::.          .:::'
+               `::::......::::'                      `::::......::::'
+                 `::::::::::'                          `::::::::::'                  
+            </edescripcion>
+            <movil valor="FALSO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="303">
+            <nombre>CABEZA VUDU</nombre>
+            <pdescripcion>Una cabeza horripilante</pdescripcion>
+            <mdescripcion>Esta cabeza asquerosa cada vez huele peor</mdescripcion>
+            <edescripcion>mmm... Una cabeza interesante, quizá nos conteste
+            
+                  .:|||||:. 
+                 ||||'''||||
+                ||| =   = |||
+               |||/(o)|(o)\|||
+              .-|/ _______ \|-.
+             (  /-' _____ `-\  )
+              \(_.-'| | |`-._)/
+              ||\_|_|_|_|_|_/||
+              ||_) _ (u) _ (_||
+              |( `-.|_|_|.-' )|
+              ||`-._______.-'||
+              |||\         /|||
+              ||||`-.`-'.-'||||
+              |||||||) (|||||||         
+            </edescripcion>
+            <movil valor="VERDADERO"/>
+            <oculto valor="VERDADERO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+            <tema valor="1"/>
+            <ataque valor="50"/>
+            <defensa valor="-50"/>
+        </objeto>
+        <objeto id="304">
+            <nombre>PALO DE FREGONA</nombre>
+            <pdescripcion>El palo de fregona esta bastante viejo</pdescripcion>
+            <mdescripcion>Has conseguido meter el palo en tu bolsa!(Y sin romperlo, well done!)</mdescripcion>
+            <edescripcion>A falta de algo mas afilado, podria serme de utilidad
+              _____________________
+             \______________________\         
+            </edescripcion>
+            <movil valor="VERDADERO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+            <ataque valor="50"/>
+            <defensa valor="0"/>
+        </objeto>
+        <objeto id="305">
+            <nombre>LLAVE DORADA</nombre>
+            <pdescripcion>Una llave muy poco común en un barco pirata</pdescripcion>
+            <mdescripcion>Ya la tienes! Al final resulto que sobre el escritorio habia una bonita llave!</mdescripcion>
+            <edescripcion>Vaya! tiene una inscripcion... si lo limpio bien... ES LA LLAVE DEL CAMAROTE DEL CAPITAN!
+            .
+                ─▄█▀▀▀█▄
+                ▐▌─────▐█▄▄█▄▄▄▄▄▄▄▄▄▄
+                ▐█▄───▄██▀▀█▀▀▀▀▀█▀█▀▀
+                ─▀█████▀────────█▀█▀█                   
+            </edescripcion>
+            <movil valor="VERDADERO"/>
+            <oculto valor="VERDADERO"/>
+            <ilumina valor="VERDADERO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="306">
+            <nombre>UTENSILIOS DE LIMPIEZA</nombre>
+            <pdescripcion>Cubos de fregona y demás utensilios de limpieza</pdescripcion>
+            <mdescripcion>¿Para que quieres esto? ¿Te crees que tienes tiempo para ponerte a limpiar? Centrate en el plan! </mdescripcion>
+            <edescripcion>Parece que estan todos demasiado buenos, no deben de limpiar mucho por aqui</edescripcion>
+            <movil valor="FALSO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="307">
+            <nombre>ANTORCHA</nombre>
+            <pdescripcion>Una antorcha apagada y hecha un asco</pdescripcion>
+            <mdescripcion>No puedes coger la antorcha, esta fijada a la pared</mdescripcion>
+            <edescripcion>Parece que esta es la causa de que no hubiese mas luz aqui
+            
+                           /|
+                        /\/ |/\
+                        \  ^   | /\  /\
+                  (\/\  / ^   /\/  )/^ )
+                   \  \/^ /\       ^  /
+                    )^       ^ \     (
+                   (   ^   ^      ^\  )
+                    \___\/____/______/
+                    [________________]
+                     |              |
+                     |     //\\     |
+                     |      ()      |
+                     |     \\//     |
+                      \____________/
+                          |    |
+                          |    |
+                          |    |
+                          |    |
+                          |    |
+                          |    |
+                          |    |        
+            </edescripcion>
+            <movil valor="FALSO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="308">
+            <nombre>SEGUNDO DE ABORDO</nombre>
+            <pdescripcion>Es un pirata dormido</pdescripcion>
+            <mdescripcion>¿Quieres despertarlo? Parece que te da igual conseguir salir de aqui a salvo!</mdescripcion>
+            <edescripcion>Parece que debajo del pirata reluce algo...una LLAVE PLATEADA!
+                             ______
+                   _.-':::::::`.
+                   \::::::::::::`.-._
+                    \:::''   `::::`-.`.
+                     \         `:::::`.\
+                      \          `-::::`:
+                       \______       `:::`.
+                       .|_.-'__`._     `:::\
+                      ,'`|:::|  )/`.     \:::
+                     /. -.`--'  : /.\     ::|
+                     `-,-'  _,'/| \|\\    |:|
+                      ,'`::.    |//`;'\   |:|
+                      (_\ \:.:.:`((_));`. ;:|
+                      \.:\ ::_:_:_`-','  `-:|
+                       `:\\|     SSt:
+                          )`__...---'
+            </edescripcion>
+            <movil valor="FALSO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="309">
+            <nombre>CATALEJO</nombre>
+            <pdescripcion>Hay unos catalejos colgados</pdescripcion>
+            <mdescripcion>No puedes llevartelos, estan atados</mdescripcion>
+            <edescripcion>Se ve todo el horizonte y... ni rastro de tierra
+               .    '                   .  "   '
+                      .  .  .                 '      '
+              "`       .   .
+                                               '     '
+            .    '      _______________
+                    ==c(___(o(______(_()
+                            \=\
+                             )=\
+                            //|\\
+                           //|| \\
+                          // ||  \\
+                         //  ||   \\
+                        //         \\
+            </edescripcion>
+            <movil valor="FALSO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="310">
+            <nombre>VELA</nombre>
+            <pdescripcion>Una vela sobre un barril!</pdescripcion>
+            <mdescripcion>Bien pensado, quiza te venga bien mas adelante</mdescripcion>
+            <edescripcion>Si todo esta oscuro, encenderla seria una buena idea
+            
+                            (   )
+                             (_)
+                            .-'-.
+                            |   |
+                            |   |
+                            |   |
+                            |   |
+                          __|   |__   .-.
+                       .-'  |   |  `-:   :
+                      :     `---'     :-'
+                       `-._       _.-'
+                           '""""""         
+            </edescripcion>
+            <movil valor="VERDADERO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="VERDADERO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="311">
+            <nombre>CAPITAN</nombre>
+            <pdescripcion>Soy el Capitan del Barco, este encontronazo no lo olvidaras facilmente! </pdescripcion>
+            <mdescripcion>Eso, anda, tu coge un capitan pirata que intenta matarte.</mdescripcion>
+            <edescripcion>Parche, loro, lenguaje vulgar...este tio es un Lechuck en toda regla! Solo le faltaba ser un capitan fantasma...
+                             _____
+                          .-" .-. "-.
+                        _/ '=(0.0)=' \_
+                      /`   .='|m|'=.   `\
+                      \________________ /
+                  .--.__///`'-,__~\\\\~`
+                 / /6|__\// a (__)-\\\\
+                 \ \/--`((   ._\   ,)))
+                 /  \\  ))\  -==-  (O)(
+                /    )\((((\   .  /)))))
+               /  _.' /  __(`~~~~`)__
+              //"\\,-'-"`   `~~~~\\~~`"-.
+             //  /`"              `      `\
+            //                
+            </edescripcion>
+            <movil valor="FALSO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+	    <tema valor="2"/>
+        </objeto>
+        <objeto id="312">
+            <nombre>ESPADA</nombre>
+            <pdescripcion>Una espada en la pared! Justo lo que necesito en esta ocasion</pdescripcion>
+            <mdescripcion>Bien pensado, quiza te ayude a rajar al capitan!</mdescripcion>
+            <edescripcion>Si vas a desperdiciar tiempo en coger la espada, HAZLO YA! Deja de hacer el bobo examinando o terminaras muerto!
+            
+                      ()
+                    __)(__
+                    '-||-'
+                      )(  
+                      ||  
+                      || 
+                      || 
+                      ||
+                      ||  
+                      \/                  
+            </edescripcion>
+            <movil valor="VERDADERO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+            <ataque valor="200"/>
+            <defensa valor="100"/>
+        </objeto>
+        <objeto id="313">
+            <nombre>MAPA</nombre>
+            <pdescripcion> Malditos creadores...no lo encontraba por ni ningun sitio!...Al menos con esto podre orientarme por estos lares.</pdescripcion>
+            <mdescripcion>Bien! Conseguiste el mapa, ahora ya solo queda llegar a tu destino.</mdescripcion>
+            <edescripcion> 
+                             _____________      _______________
+                            |             |    |               |         Nota del cartografo: La direccion norte
+                            |             |    |               |         cambia al descender a los camarotes.
+                            |    COFA     |    |     TIMON     |      	 (si, se lo que estas pensando: "vaya estupidez",		
+                            |             |    |               |         pero tio, que esperabas, es un barco pirata!)   
+                            |_____  ______|    |_____  ________|              
+                                  \ \                \ \             
+             _____________   _____/ /_______    _____/ /______   
+            |             | |               |  |              | 
+            |             |_|               |__|              |    _____________    _____________ 
+            |    PROA      _    CUBIERTA     __     CUBIERTA  |   |             |  | CAMAROTE DE | 
+            |             | |               |  |              |   |  CAMAROTE 1 |  |   SEGUNDO   |
+            |_____________| |_____ __ ______|  |___    _______|   |             |  |  DE ABORDO  |
+                             _____|__|____         \   \          |_____    ____|  |_____ __ ____|
+                            |             |         \   \           ____|  |____    _____|__|___    ____________
+                            |  CALABOZOS  |          \   \_________|            |  |            |  |            |
+                            |  (Punto de  |           \   --->NORTE   PASILLO   |__|   PASILLO  |__|  CAMAROTE  |
+                            |   inicio)   |            \___________  INTERMEDIO  __  INTERMEDIO |__|    DEL     |
+                            |_____________|                        |____    ____|  |____    ____|  |  CAPITAN   |
+                                                                        |  |            |  |	   |____________|
+                                                                   _____|  |____    ____|  |____
+                                                                  |             |  |             |
+                                                                  |  CAMAROTE 2 |  |  CAMAROTE 4 |
+                                                                  |             |  |             |
+                                                                  |_____________|  |_____________|
+            </edescripcion>
+            <movil valor="VERDADERO"/>
+            <oculto valor="VERDADERO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="314">
+            <nombre>LLAVE PLATEADA</nombre>
+            <pdescripcion>Una llave hecha de plata y muy brillante!</pdescripcion>
+            <mdescripcion>Ya la tienes! Ahora vete probando todo como un campeon a ver que abre!</mdescripcion>
+            <edescripcion>Vaya! Eres mas listo de lo que pareces...al examinarla ves que pone algo sobre el segundo de abordo!
+            
+                ─▄█▀▀▀█▄
+                ▐▌─────▐█▄▄█▄▄▄▄▄▄▄▄▄▄
+                ▐█▄───▄██▀▀█▀▀▀▀▀█▀█▀▀
+                ─▀█████▀────────█▀█▀█                  
+            </edescripcion>
+            <movil valor="VERDADERO"/>
+            <oculto valor="VERDADERO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="315">
+            <nombre>TESORO</nombre>
+            <pdescripcion>Un tesoro! Tengo que ganar este barco, y conseguir todo este oro *.* </pdescripcion>
+            <mdescripcion>Como vas a cogerlo? Piensas intentar ganar este barco con un cofre a la espalda o que?</mdescripcion>
+            <edescripcion> Oro, plata, rubies, esmeraldas, zafiros... DIOS! Deja de mirar o al final te quedas aqui tirado!
+        
+                                _.--.
+                            _.-'_:-'||
+                        _.-'_.-::::'||
+                   _.-:'_.-::::::'  ||
+                 .'`-.-:::::::'     ||
+                /.'`;|:::::::'      ||_
+               ||   ||::::::'     _.;._'-._
+               ||   ||:::::'  _.-!oo @.!-._'-.
+               \'.  ||:::::.-!()oo @!()@.-'_.|
+                '.'-;|:.-'.  @.  ()$%-'o.'\U||
+                  `>'-.!@%()@'@_%-'_.-o _.|'||
+                   ||-._'-.@.-'_.-' _.-o  |'||
+                   ||=[ '-._.-\U/.-'    o |'||
+                   || '-.]=|| |'|      o  |'||
+                   ||      || |'|        _| ';
+                   ||      || |'|    _.-'_.-'
+                   |'-._   || |'|_.-'_.-'
+                    '-._'-.|| |' `_.-'
+                        '-.||_/.-'
+            </edescripcion>
+            <movil valor="FALSO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="316">
+            <nombre>ESCRITORIO</nombre>
+            <pdescripcion>Un escritorio normalito con cajones y papeles sobre la mesa. </pdescripcion>
+            <mdescripcion>Te crees que puedes llevarte un escritorio en los bolsillos o que?</mdescripcion>
+            <edescripcion>Sobre la mesa del escritorio hay... UNA LLAVE DORADA!
+                         ___________________________
+                        /                          /
+                       /          ____________    /
+                      /  / \     /           /   /
+                     /  / \ \   /           /   /
+                    /  //  \ \ /           /   /
+                   /  //    \ \___________/   /
+                  / ///      \ \       __    /
+                 /            \/      /_/   /
+                /________________________ _/
+            </edescripcion>
+            <movil valor="FALSO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="317">
+            <nombre>CUCHILLO PIRATA</nombre>
+            <pdescripcion>Un bonito, afilado y sangriento cuchillo de mar. </pdescripcion>
+            <mdescripcion>A matar piratas se ha dicho!</mdescripcion>
+            <edescripcion>Lo cierto es que no es la mas temible de las armas, pero es mejor que pegar puñetazos.
+            
+             ------~~~~~~~~~~~~~~~~~~~~~~~~~\
+             """"""|_____                    )
+                    """""""""--------"""
+            </edescripcion>
+            <movil valor="VERDADERO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+            <ataque valor="100"/>
+            <defensa valor="50"/>
+        </objeto>
+        <objeto id="318">
+            <nombre>GROG</nombre>
+            <pdescripcion>Una sabrosa botella de grog. </pdescripcion>
+            <mdescripcion>Bien! Ya tienes el grog, ahora falta emborracharse! Digooo, averiguar para que sirve.</mdescripcion>
+            <edescripcion>Reserva Treepwood. Contiene, entre otros: ron, ginebra, gasolina, aguardiente, aceite de motor, acido sulfurico, mas ron, pepperoni... 
+            
+                          ( _ _ _)
+                           |_ _ |
+                          (_ _ _ )
+                           |    |
+                           |____|
+                           |/  \|
+                           (2837)
+                           |\__/|
+                           |    |
+                           |    |
+                          / .--. \
+                       .-' :(..): `-.
+                   _.-'    `-..-'    `-._
+                 .'                      `.
+                 |___                  ___|
+                 |   `````--....--'''''   |
+                 |  |`````--....--'''''|  |
+                 |  |        $%#       |  |
+                 |  |        `'"       |  |
+                 |  |  AUTENTICO GROG  |  |
+                 |  |      RESERVA     |  |
+                 |  |     TREEPWOOD    |  |
+                 |  |                  |  |
+                 |  |        #-        |  |
+                 |  |       ###|       |  |
+                 |  |      .####.      |  |
+                 |  |      ######      |  |
+                 |  |      ######      |  |
+                 |  |        ##        |  |
+                 |  |  _____####_____  |  |
+                 |  |  ______________  |  |
+                .'  |                  |  `.
+               (  `-.`````--....--'''''.-'  )
+                ``-.._``--.._.._..:F_P:.--''
+                      ``--.._  _..--''
+                             `'
+            </edescripcion>
+            <movil valor="VERDADERO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="319">
+            <nombre>BANDERA PIRATA</nombre>
+            <pdescripcion>Una tipica bandera pirata. Ya sabes, fondo negro, calaver,  y un poco raida. </pdescripcion>
+            <mdescripcion>Eso, coge la bandera pirata, asi todo el mundo pensara que este es un barco mercante y te abordaran mas piratas!</mdescripcion>
+            <edescripcion>Es un tanto escalofriante, a la par que cautivadora.
+                 ___
+                 \_/
+                  |._
+                  |'."-._.-""--.-"-.__.-'/
+                  |  \       .-.        (
+                  |   |     (@.@)        )
+                  |   |   '=.|m|.='     /
+                  |  /    .='`"``=.    /
+                  |.'                 (
+                  |.-"-.__.-""-.__.-"-.)
+                  |
+                  |
+                  |
+            </edescripcion>
+            <movil valor="FALSO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="320">
+            <nombre>BOLSA DE GALLETAS</nombre>
+            <pdescripcion>Que demonios hace una bolsa de galleta en un barco pirata?</pdescripcion>
+            <mdescripcion>Bueno, al menos no vas a pasar hambre! *crunch crunch* PUAJ! Esta asqueroso!</mdescripcion>
+            <edescripcion>Vale, es una bolsa de galletas para loros. Esto explica varias cosas.			
+                 _________________
+                |-----------------|
+                |     LORISKAS    |
+                |                 |
+                |_________________|
+                |  GALLETAS PARA  |
+                |  LOROS ADULTOS  |
+                |_________________|
+                |                 |
+                |_________________|
+            </edescripcion>
+            <movil valor="VERDADERO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+        </objeto>
+        <objeto id="321">
+            <nombre>LORO</nombre>
+            <pdescripcion>Pero mirale que majo es!</pdescripcion>
+            <mdescripcion>Venga ya! Tan chorizo eres que te quieres llevar hasta un loro!?</mdescripcion>
+            <edescripcion>Este loro es un maquina! Pero si hasta habla y todo! Mmm...a lo mejor tiene informacion util.			
+                    __,---.
+                   /__|o\  )
+                    `-\ / /
+                      ,) (,
+                     //   \\
+                    {(     )}
+              =======""===""===============
+                      |||||
+                       |||
+                        |
+            </edescripcion>
+            <movil valor="FALSO"/>
+            <oculto valor="FALSO"/>
+            <ilumina valor="FALSO" inicial="FALSO"/>
+	    <tema valor="3"/>
+        </objeto>
+    </objetos>
+    <jugador>
+        <localizacion>100</localizacion>
+        <max_objetos>10</max_objetos>
+    </jugador>
+</juego>
